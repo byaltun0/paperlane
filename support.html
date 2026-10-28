@@ -7,10 +7,10 @@
 <meta name="description" content="Paperlane PDF uygulaması için destek, sık sorulan sorular ve iletişim bilgileri.">
 <link rel="canonical" href="https://www.paperlaneapp.com/support.html">
 <meta name="robots" content="index, follow">
-<meta name="theme-color" content="#15241E">
+<meta name="theme-color" content="#122018">
 <link rel="icon" href="assets/img/favicon-32.png" sizes="32x32">
 <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
 <script type="application/ld+json">
 {
@@ -29,7 +29,7 @@
 <a class="skip-link" href="#main">İçeriğe geç</a>
 <header class="site">
   <nav class="nav" aria-label="Ana menü">
-    <a class="brand" href="index.html"><img src="assets/img/icon-192.png" alt="" width="30" height="30">Paperlane</a>
+    <a class="brand" href="index.html"><img src="assets/img/icon-192.png" alt="" width="28" height="28">Paperlane</a>
     <button class="nav-toggle" aria-label="Menüyü aç" aria-expanded="false"><span></span><span></span><span></span></button>
     <ul class="nav-links">
       <li><a href="index.html#ozellikler">Özellikler</a></li>
@@ -41,30 +41,40 @@
 </header>
 
 <main id="main">
-  <div class="wrap" style="padding:56px 0 20px">
-    <h1>Destek ve İletişim</h1>
-    <p class="muted" style="max-width:56ch">Bir sorun mu yaşadınız, öneriniz mi var, ya da işbirliği için mi ulaşmak istiyorsunuz? Aşağıdaki kanallardan bize ulaşabilirsiniz.</p>
-  </div>
+  <section class="support-hero">
+    <div class="wrap">
+      <span class="eyebrow">Destek Merkezi</span>
+      <h1>Size nasıl yardımcı olabiliriz?</h1>
+      <p class="muted" style="max-width:56ch;font-size:1.08rem">Bir sorun mu yaşadınız, bir öneriniz mi var, ya da işbirliği için mi ulaşmak istiyorsunuz? Aşağıdan doğrudan bize ulaşın ya da önce sık sorulan sorulara göz atın.</p>
+    </div>
+  </section>
 
-  <section style="padding-top:0">
-    <div class="wrap" style="display:grid;grid-template-columns:1fr 1fr;gap:40px">
+  <section style="padding-top:8px">
+    <div class="wrap support-grid">
       <div class="contact-card">
         <div class="contact-row">
           <div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></div>
-          <div><h3 style="margin-bottom:2px">E-posta</h3><a href="mailto:byaltun4@gmail.com">byaltun4@gmail.com</a></div>
+          <div><div class="lbl">E-posta ile destek</div><a href="mailto:byaltun4@gmail.com">byaltun4@gmail.com</a></div>
         </div>
         <div class="contact-row">
           <div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="2" width="16" height="20" rx="3"/><path d="M8 18h.01"/></svg></div>
-          <div><h3 style="margin-bottom:2px">Geliştirici</h3><a href="https://play.google.com/store/apps/developer?id=By+Altun">By Altun — tüm uygulamalar</a></div>
+          <div><div class="lbl">Geliştirici</div><a href="https://play.google.com/store/apps/developer?id=By+Altun">By Altun — tüm uygulamalar</a></div>
         </div>
         <div class="contact-row">
           <div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3.6 2.4c-.4.4-.6.9-.6 1.5v16.2c0 .6.2 1.1.6 1.5l.1.1L13 12.3v-.3L3.7 2.3l-.1.1z"/></svg></div>
-          <div><h3 style="margin-bottom:2px">Google Play</h3><a href="https://play.google.com/store/apps/details?id=com.altun.paperlane">Paperlane uygulama sayfası</a></div>
+          <div><div class="lbl">Google Play</div><a href="https://play.google.com/store/apps/details?id=com.altun.paperlane">Paperlane uygulama sayfası</a></div>
+        </div>
+        <div style="padding:0 18px 18px">
+          <div class="response-note">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+            Genellikle 1-2 iş günü içinde yanıt veriyoruz
+          </div>
         </div>
       </div>
 
       <div>
-        <h2 style="margin-bottom:18px">Sık sorulan sorular</h2>
+        <h2 style="margin-bottom:6px">Sık sorulan sorular</h2>
+        <p class="muted" style="margin-bottom:22px">Yazmadan önce yanıtı burada bulabilirsiniz.</p>
         <div class="faq">
           <details open>
             <summary>Paperlane ücretsiz mi?</summary>
@@ -83,8 +93,12 @@
             <p>Arşiv bölümünde, cihazınızda saklanır; siz silmediğiniz sürece kalır.</p>
           </details>
           <details>
+            <summary>Premium aboneliğimi nasıl iptal ederim?</summary>
+            <p>Abonelikler Google Play / App Store üzerinden yönetilir. İlgili mağazanın "Abonelikler" bölümünden Paperlane'i bulup iptal edebilirsiniz.</p>
+          </details>
+          <details>
             <summary>Bir hata bildirmek istiyorum, ne yapmalıyım?</summary>
-            <p>byaltun4@gmail.com adresine cihaz modelinizi, uygulama sürümünü ve hatanın kısa bir açıklamasını yazarak ulaşabilirsiniz.</p>
+            <p>byaltun4@gmail.com adresine cihaz modelinizi, uygulama sürümünü ve hatanın kısa bir açıklamasını yazarak ulaşabilirsiniz; ekran görüntüsü eklerseniz çözüm süreci hızlanır.</p>
           </details>
         </div>
       </div>

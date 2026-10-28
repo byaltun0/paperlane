@@ -7,12 +7,10 @@
 <meta name="description" content="Paperlane, PDF dosyalarınızı tarama, birleştirme, bölme, imzalama ve dönüştürme işlemlerini cihazınızda, internete göndermeden yapan profesyonel PDF uygulamasıdır. Android ve iOS için ücretsiz indirin.">
 <link rel="canonical" href="https://www.paperlaneapp.com/">
 <meta name="robots" content="index, follow">
-<meta name="theme-color" content="#15241E">
-
+<meta name="theme-color" content="#122018">
 <link rel="icon" href="assets/img/favicon-32.png" sizes="32x32">
 <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
 <link rel="manifest" href="site.webmanifest">
-
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Paperlane">
 <meta property="og:title" content="Paperlane — Profesyonel PDF Uygulaması">
@@ -24,12 +22,10 @@
 <meta name="twitter:title" content="Paperlane — Profesyonel PDF Uygulaması">
 <meta name="twitter:description" content="Tara, birleştir, böl, imzala, filigranla ve dönüştür — tüm PDF işlemleriniz cihazınızda.">
 <meta name="twitter:image" content="https://www.paperlaneapp.com/assets/img/banner.jpg">
-
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -51,13 +47,8 @@
 
 <header class="site">
   <nav class="nav" aria-label="Ana menü">
-    <a class="brand" href="index.html">
-      <img src="assets/img/icon-192.png" alt="" width="30" height="30">
-      Paperlane
-    </a>
-    <button class="nav-toggle" aria-label="Menüyü aç" aria-expanded="false">
-      <span></span><span></span><span></span>
-    </button>
+    <a class="brand" href="index.html"><img src="assets/img/icon-192.png" alt="" width="28" height="28">Paperlane</a>
+    <button class="nav-toggle" aria-label="Menüyü aç" aria-expanded="false"><span></span><span></span><span></span></button>
     <ul class="nav-links">
       <li><a href="#ozellikler">Özellikler</a></li>
       <li><a href="#nasil-calisir">Nasıl Çalışır</a></li>
@@ -71,8 +62,10 @@
 <main id="main">
   <section class="hero">
     <div class="wrap hero-grid">
-      <div>
-        <span class="eyebrow-tab"><span class="dot"></span>Android ve iOS için hazır</span>
+      <div class="hero-copy">
+        <div class="badge-row">
+          <span class="badge-pill"><span class="dot"></span>Android ve iOS için hazır</span>
+        </div>
         <h1>Evraklarınız, cebinizde kontrol altında.</h1>
         <p class="lead">Paperlane; tarama, birleştirme, bölme, imzalama ve dönüştürme gibi tüm PDF işlemlerinizi doğrudan telefonunuzda yapar. Dosyalarınız sunucuya gönderilmeden, cihazınızda işlenir.</p>
         <div class="btn-row">
@@ -85,15 +78,25 @@
             App Store · Yakında
           </span>
         </div>
-        <div class="trust-row">
-          <span class="item">İşlemler cihazda yapılır</span>
-          <span class="item">6 dil desteği</span>
-          <span class="item">Geliştirici: By Altun</span>
+        <div class="stat-row">
+          <div class="stat"><b>12+</b><span>PDF aracı</span></div>
+          <div class="stat"><b>6</b><span>dil desteği</span></div>
+          <div class="stat"><b>%100</b><span>cihazda işleme</span></div>
+          <div class="stat"><b>4</b><span>platform: telefon, tablet, iPad, Mac</span></div>
         </div>
       </div>
       <div class="hero-art">
-        <img src="assets/img/home.jpg" width="900" height="1800" alt="Paperlane ana ekranı: belgeleriniz, tarama ve PDF birleştirme kısayolları" loading="eager">
-        <span class="ribbon">12+ PDF aracı tek uygulamada</span>
+        <div class="phone-stage">
+          <img src="assets/img/home.jpg" width="760" height="1492" alt="Paperlane ana ekranı: belgeleriniz, tarama ve PDF birleştirme kısayolları" loading="eager">
+          <div class="float-card fc1">
+            <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 13l4 4L19 7"/></svg></div>
+            <div><b>Tarama tamam</b><span>2 sn sürdü</span></div>
+          </div>
+          <div class="float-card fc2">
+            <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 17l5-1 10-10-4-4L4 12l-1 5z"/></svg></div>
+            <div><b>İmzalandı</b><span>Sözleşme_Projesi.pdf</span></div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -101,39 +104,45 @@
   <section id="ozellikler">
     <div class="wrap">
       <div class="section-head">
+        <span class="eyebrow">Özellikler</span>
         <h2>Bir PDF uygulamasından beklediğiniz her şey</h2>
         <p class="muted">Ofis evrakından fişlere, sözleşmelerden kimlik taramalarına kadar — Paperlane tek bir araç setinde toplar.</p>
       </div>
       <div class="feature-grid">
-        <article class="feature">
+        <article class="feature wide">
           <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h5"/></svg></div>
           <h3>Tarama</h3>
           <p>Belgelerinizi kamerayla tarayın; kenarlar otomatik algılanır, net ve düzgün bir PDF elde edersiniz.</p>
         </article>
-        <article class="feature">
+        <article class="feature wide">
           <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 4h6l5 5v11H7z"/><path d="M13 4v5h5"/></svg></div>
           <h3>Birleştir ve böl</h3>
           <p>Birden fazla PDF'i tek dosyada toplayın ya da uzun bir belgeyi istediğiniz sayfalardan ayırın.</p>
         </article>
-        <article class="feature">
+        <article class="feature narrow">
           <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 17l5-1 10-10-4-4L4 12l-1 5z"/></svg></div>
           <h3>İmza ekle</h3>
-          <p>Sözleşmeleri yazdırmadan, elinizle çizdiğiniz veya kayıtlı imzanızla saniyeler içinde imzalayın.</p>
+          <p>Sözleşmeleri yazdırmadan, elinizle çizdiğiniz imzayla saniyeler içinde imzalayın.</p>
         </article>
-        <article class="feature">
+        <article class="feature narrow">
           <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="3"/><path d="M8 14l3-3 2 2 3-4"/></svg></div>
           <h3>Görselden PDF</h3>
-          <p>Fotoğraflarınızı tek veya çoklu sayfalı, düzenli bir PDF'e dönüştürün.</p>
+          <p>Fotoğraflarınızı düzenli, çok sayfalı bir PDF'e dönüştürün.</p>
         </article>
-        <article class="feature">
+        <article class="feature narrow">
           <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12m0 0l4-4m-4 4l-4-4M5 21h14"/></svg></div>
           <h3>Sayfa düzenleme</h3>
-          <p>Sayfaları yeniden sıralayın, gereksiz sayfaları silin, dosya boyutunu optimize edin.</p>
+          <p>Sayfaları yeniden sıralayın, gereksiz sayfaları silin, dosyayı optimize edin.</p>
         </article>
-        <article class="feature">
+        <article class="feature narrow">
           <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div>
           <h3>Fiş / görseli oku</h3>
-          <p>Görsellerdeki metinleri okuyup düzenlenebilir hale getiren akıllı asistan ile zaman kazanın.</p>
+          <p>Görsellerdeki metinleri okuyan akıllı asistan ile zaman kazanın.</p>
+        </article>
+        <article class="feature narrow">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19V7a2 2 0 012-2h7l5 5v9a2 2 0 01-2 2H6a2 2 0 01-2-2z"/><path d="M14 9V5l5 4h-4z" fill="currentColor" stroke="none"/></svg></div>
+          <h3>Filigran</h3>
+          <p>Belgelerinize marka veya gizlilik filigranı ekleyin, dilediğinizde kaldırın.</p>
         </article>
       </div>
     </div>
@@ -152,7 +161,7 @@
             <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 13l4 4L19 7"/></svg> Tek dokunuşla dışa aktarma</li>
           </ul>
         </div>
-        <div class="showcase-art"><img src="assets/img/tools.jpg" width="900" height="1800" alt="Paperlane Araçlar ekranı: filigran, PDF birleştir, sayfaları sil" loading="lazy"></div>
+        <div class="showcase-art"><img src="assets/img/tools.jpg" width="760" height="1492" alt="Paperlane Araçlar ekranı: filigran, PDF birleştir, sayfaları sil" loading="lazy"></div>
       </div>
 
       <hr class="divider">
@@ -168,7 +177,7 @@
             <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 13l4 4L19 7"/></svg> Hızlı erişim için son belgeler listesi</li>
           </ul>
         </div>
-        <div class="showcase-art"><img src="assets/img/archive.jpg" width="900" height="1800" alt="Paperlane Arşiv ekranı: PDF, JPG ve TXT dosyalarınız tek yerde" loading="lazy"></div>
+        <div class="showcase-art"><img src="assets/img/archive.jpg" width="760" height="1492" alt="Paperlane Arşiv ekranı: PDF, JPG ve TXT dosyalarınız tek yerde" loading="lazy"></div>
       </div>
     </div>
   </section>
@@ -176,7 +185,7 @@
   <section id="gizlilik">
     <div class="wrap">
       <div class="privacy-banner">
-        <div class="pb-ic"><svg viewBox="0 0 24 24" fill="none" stroke="#15241E" stroke-width="2"><path d="M12 3l7 3v5c0 5-3.4 8.4-7 10-3.6-1.6-7-5-7-10V6l7-3z"/></svg></div>
+        <div class="pb-ic"><svg viewBox="0 0 24 24" fill="none" stroke="#122018" stroke-width="2"><path d="M12 3l7 3v5c0 5-3.4 8.4-7 10-3.6-1.6-7-5-7-10V6l7-3z"/></svg></div>
         <div>
           <h3>Belgeleriniz varsayılan olarak cihazınızda işlenir</h3>
           <p>PDF birleştirme, bölme, imzalama ve filigran gibi temel işlemler internet bağlantısı gerektirmeden, telefonunuzun kendi işlemcisinde yapılır. Detaylar için <a href="privacy.html" style="color:#A9E98C">gizlilik politikamıza</a> göz atın.</p>
@@ -188,6 +197,7 @@
   <section>
     <div class="wrap">
       <div class="section-head">
+        <span class="eyebrow">Nasıl başlanır</span>
         <h2>Üç adımda kağıtsız bir iş akışı</h2>
       </div>
       <div class="steps">
@@ -201,8 +211,9 @@
   <section>
     <div class="wrap">
       <div class="section-head">
+        <span class="eyebrow">Erişilebilirlik</span>
         <h2>Her dilde, her ekranda</h2>
-        <p class="muted">Paperlane 6 dilde kullanılabilir ve telefon, tablet ile Mac (M1 ve üzeri) cihazlarda çalışır.</p>
+        <p class="muted">Paperlane 6 dilde kullanılabilir ve telefon, tablet, iPad ile Mac (M1 ve üzeri) cihazlarda çalışır.</p>
       </div>
       <div class="lang-row">
         <span>Türkçe</span><span>English</span><span>Deutsch</span><span>Español</span><span>Français</span><span>العربية</span>
@@ -217,7 +228,7 @@
           <h2>Evraklarınızı bugün dijitalleştirin</h2>
           <p>Paperlane'i ücretsiz indirin, ilk belgenizi birkaç saniyede tarayın.</p>
         </div>
-        <a class="store-btn" style="background:var(--accent);color:var(--ink)" href="https://play.google.com/store/apps/details?id=com.altun.paperlane">Google Play'den indir</a>
+        <a class="store-btn" style="background:var(--accent);color:var(--ink);box-shadow:none" href="https://play.google.com/store/apps/details?id=com.altun.paperlane">Google Play'den indir</a>
       </div>
     </div>
   </section>
@@ -225,12 +236,12 @@
 
 <footer class="site">
   <div class="wrap">
-    <div class="foot-grid">
-      <div>
-        <a class="brand" href="index.html" style="margin-bottom:12px"><img src="assets/img/icon-192.png" alt="" width="28" height="28">Paperlane</a>
-        <p class="muted" style="max-width:34ch">Profesyonel PDF ve belge yönetimi. Taramadan imzaya, tüm işlemler cihazınızda.</p>
+    <div class="foot-top">
+      <div class="foot-brand">
+        <a class="brand" href="index.html" style="margin-bottom:14px"><img src="assets/img/icon-192.png" alt="" width="26" height="26">Paperlane</a>
+        <p>Profesyonel PDF ve belge yönetimi. Taramadan imzaya, tüm işlemler cihazınızda.</p>
       </div>
-      <div>
+      <div class="foot-grid">
         <h4>Uygulama</h4>
         <ul>
           <li><a href="#ozellikler">Özellikler</a></li>
@@ -238,7 +249,7 @@
           <li><a href="https://play.google.com/store/apps/developer?id=By+Altun">Geliştirici: By Altun</a></li>
         </ul>
       </div>
-      <div>
+      <div class="foot-grid">
         <h4>Kurumsal</h4>
         <ul>
           <li><a href="privacy.html">Gizlilik Politikası</a></li>
@@ -246,10 +257,16 @@
           <li><a href="support.html">Destek &amp; İletişim</a></li>
         </ul>
       </div>
+      <div class="foot-grid">
+        <h4>İletişim</h4>
+        <ul>
+          <li><a href="mailto:byaltun4@gmail.com">byaltun4@gmail.com</a></li>
+        </ul>
+      </div>
     </div>
     <div class="foot-bottom">
       <p>© <span class="year">2026</span> Paperlane — By Altun. Tüm hakları saklıdır.</p>
-      <p>byaltun4@gmail.com</p>
+      <p><a href="mailto:byaltun4@gmail.com">byaltun4@gmail.com</a></p>
     </div>
   </div>
 </footer>
